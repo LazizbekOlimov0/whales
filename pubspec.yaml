@@ -1,0 +1,70 @@
+name: lesson7
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  cached_network_image: ^3.4.1
+  flutter:
+    sdk: flutter
+
+  flutter_web_plugins:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  super_sliver_list: ^0.4.1
+  sms_autofill: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animation/
+    - assets/images/
+    - assets/json/
+
+  fonts:
+    - family: EmblemaOne
+      fonts:
+        - asset: assets/fonts/emblema_one/EmblemaOne-Regular.ttf
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/lora/Lora-VariableFont_wght.ttf
+        - asset: assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf
+          style: italic
+    - family: LoraStatic
+      fonts:
+        - asset: assets/fonts/lora_static/Lora-Regular.ttf
+        - asset: assets/fonts/lora_static/Lora-Italic.ttf
+          style: italic
+        - asset: assets/fonts/lora_static/Lora-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/lora_static/Lora-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/lora_static/Lora-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/lora_static/Lora-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/lora_static/Lora-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/lora_static/Lora-BoldItalic.ttf
+          weight: 700
+          style: italic
+
